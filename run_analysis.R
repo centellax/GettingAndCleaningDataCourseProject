@@ -24,7 +24,6 @@ dim(data_y)
 dim(subject)
 
 ##P2
-#featrues n activity
 features<-read.table("features.txt")
 index<-grep("mean\\(\\)|std\\(\\)", features[,2])
 data_x<-data_x[,index]
